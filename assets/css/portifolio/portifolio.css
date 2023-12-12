@@ -1,0 +1,28 @@
+.portifolio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;   
+    padding-top: 16px; 
+    
+}
+
+.portifolio h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+    
+    
+}
+
+/*Estilo para telas de tablets*/
+
+@media screen and (min-width: 481px) and (max-width: 890px) {
+
+}
+
+ /*Estilo para telas de celulares*/
+
+ @media screen and (max-width: 480px) {
+
+ }

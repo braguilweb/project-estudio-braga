@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: #fff;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 70px;
+    align-items: center;
+   
+}
+
+.logo img {
+    width: 25%;
+}
+
+/* Estilos para telas de Tablets*/
+
+@media screen and (min-width: 481px) and (max-width: 890px) {
+
+    .logo {
+        margin-left: 24px;
+        margin-right: 20px;
+    }
+
+}
+
+/* Estilos para telas de celulares*/
+
+@media screen and (max-width:480px) {
+    .logo {
+        
+        margin-left: 5px;
+        margin-right: 1px;
+    }
+    .logo img {
+        width: 50%;
+    }
+    
+}

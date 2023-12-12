@@ -1,0 +1,137 @@
+.metodologia {
+    display: flex;
+    justify-content: space-between;
+  
+}
+.metodologia__conteudo {
+   justify-content: space-around;
+    
+    
+}
+.metodologia__conteudo h3 {
+    font-family: Raleway, sans-serif;
+    font-size: 49px;
+    font-weight: 700;
+    
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 50px;
+}
+.metodologia__conteudo p {
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-size: 24px;
+}
+.metodologia__conteudo .crie {
+    background-color: #ed6815ff;
+}
+.metodologia__conteudo .ouse {
+    background-color: #ff3636ff;
+}
+.metodologia__conteudo .marque {
+    background-color: #3261faff;
+}
+
+.crie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 520px;
+    width: 390px;
+    border-radius: 20px;
+    
+}
+.ouse {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 520px;
+    width: 390px;
+    border-radius: 20px;
+    
+}
+.marque {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 520px;
+    width: 390px;
+    border-radius: 20px;
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 890px) {
+    .metodologia {
+        justify-content: space-around;
+        width: 790px;
+        height: 450px;
+    }
+
+    .metodologia__conteudo {
+
+       width: 250px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;   
+                     
+    }
+    .metodologia__conteudo p {
+        display: none;
+    }
+    .ouse {
+        width: 100%;
+        height: 400px;
+    }
+    .crie {
+        width: 100%;
+        height: 400px;
+        
+    }
+    .marque {
+        width: 100%;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .metodologia {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 360px;
+        
+    }
+
+    .metodologia__conteudo {
+
+       width: 350px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;  
+       padding-bottom: 10px; 
+                     
+    }
+    .metodologia__conteudo p {
+        display: none;
+    }
+    .ouse {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+    }
+    .crie {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+        
+    }
+    .marque {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+    }
+    
+}

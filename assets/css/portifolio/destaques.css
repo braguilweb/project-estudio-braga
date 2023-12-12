@@ -1,0 +1,166 @@
+.destaques{
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+    
+}
+
+.destaques-container{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    gap: 16px;
+    
+    
+}
+
+
+.destaques img {
+    width: 590px;
+    height: 580px;
+    border-radius: 20px;
+}
+
+.destaques-card {
+    display: flex;
+   
+    justify-content: space-between;
+    
+}
+
+.destaques-card_2 {
+    display: flex;
+    justify-content: space-between;
+  
+}
+.destaques-texto{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 590px;
+    height: 382px;
+    margin-top: 50px;
+    
+    border-radius: 20px;
+    
+}
+
+.destaques-texto h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 49px;
+    font-weight: 700;
+    
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 50px;
+}
+.destaques-texto p{
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-size: 24px;
+}
+.destaques-texto button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 30px;
+    background-color: inherit; 
+    margin-top: 30px;
+    
+    
+    cursor: pointer;
+    border-color: #000000;
+    border-radius: 40px;
+    border: solid 1px;
+    
+}
+.button__faleConosco {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#texto-2{
+    background-color: #000000;
+    color: #fff;
+}
+#texto-2 button{
+    
+    color: #fff;
+}
+
+/*Estilos para telas de tablets*/
+
+@media screen and (min-width: 481px) and (max-width:890px) {
+    .destaques-container img:first-child {
+        display:none;
+    }
+    .destaques-card {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .destaques-container {
+        max-width: 600px;
+        align-items: center;
+    }
+    .destaques-texto {
+        height: 440px;
+    }
+    .destaques-card_2 {
+        flex-direction: column;
+    }
+}
+
+
+/*Estilos para telas de celulares*/
+
+@media screen and (max-width: 480px) {
+    .destaques-container img:first-child {
+        display: none;
+    }
+    .destaques-container {
+        max-width: 480px;
+        align-items: center;
+    }
+    .destaques-card {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .destaques-texto {
+        max-width: 360px;
+        max-height: 400px;
+        padding-top: 10px;
+    }
+    .destaques-texto h2 {
+        font-size: 38px;
+        font-weight: 700;
+               
+        margin-bottom: 20px;
+    }
+
+    .destaques-card_2 {
+        width: 360px;
+        height: 380px;
+        
+    }
+    .destaques-card_2 img {
+        display: none;
+    }
+    .destaques-texto {
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+}

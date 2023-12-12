@@ -1,0 +1,48 @@
+.menu__cabecalho {
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu__cabecalho ul {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.menu__cabecalho a {
+    display: flex;
+    justify-content: space-between;
+    
+    text-decoration: none;
+    color: #030303;
+    font-size: 22px;
+    
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+}
+
+
+
+/*Estilo para telas de celulares*/
+
+@media screen and (max-width: 481px) {
+    .menu__cabecalho ul li:first-child {
+        display: none;
+    }
+   .menu__cabecalho a {
+    font-size: 18px;
+    
+   }
+   .menu__cabecalho ul {
+    width: 180px;
+   }
+    
+}
+
+/*Estilo para telas de tablets*/
+
+@media screen and (min-width: 481px) and (max-width: 890px) {
+    
+    
+}
